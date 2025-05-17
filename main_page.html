@@ -1,0 +1,234 @@
+<!doctype html>
+<html>
+  <head>
+    <title>FITLAB</title>
+    <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+   <link rel="stylesheet" href="style1.css">
+   
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+  integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" >
+  </head>
+  <body>
+    <style>
+      .container {
+      display: flex;
+      align-items: center;
+      justify-content: center
+    }
+    
+    img {
+      max-width: 100%;
+      max-height:100%;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+    
+    .text {
+      font-size: 20px;
+      padding-left: 20px;
+      color:aliceblue;
+    }
+  
+    .content-container {
+              display: flex;
+              max-width: 1000px;
+              border: 2px solid #ddd;
+              border-radius: 10px;
+              overflow: hidden;
+              background-color: #f9f9f9;
+          }
+
+
+          *{
+        font-family: 'poppins', 'sans-serif';
+        box-sizing: border-box;
+    }
+
+    .footer{
+        margin-top:150px;
+        width:100%;
+        padding:100px 15%;
+        background:#333;
+        color:#efefef;
+        display:flex;
+    }
+    .footer div{
+        text-align: center;
+    }
+
+    .col-2{
+        flex-grow:2;
+    }
+
+    .footer div h3{
+        font-weight:300;
+        margin-bottom: 30px;
+        letter-spacing:1px ;
+    }
+
+    .col-1 a{
+        display:block;
+        text-decoration:none ;
+        color: #efefef;
+        margin-bottom: 10px;
+    }
+    form input{
+        width:400px;
+        height: 45px;
+        border-radius: 4px;
+        text-align:center;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        outline:none;
+        border:none;
+    }
+    .social-icons{
+        margin-top:30px;
+    }
+    .social-icons i{
+        font-size:22px;
+        margin:10px;
+        cursor:pointer;
+    }
+      </style>
+
+    <header>
+      <div class="navbar">
+        <div class="logo"><a href="main page.html">WHALE OPTIMIZATION Algorithm</a></div>
+        <ul class=" links">
+          <li><a href="file:///C:/Users/Diksha%20N/OneDrive/Desktop/WEB/fitness.html">Home</a></li>
+          <li><a href="https://www.sciencedaily.com/news/health_medicine/fitness/">TRY IT YOURSELF
+          </a></li>
+        </ul>
+        <div class="toggle_btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </header>
+   <div class="slider">
+     <div class="myslider fade" style="display: block;">
+      <div class="txt">
+      <h1> WHAT IS A DISTRIBUTED GENERATOR</h1>
+      <p>Distributed generator (DG) resources are small scale electric power generating plants that can provide power to
+        homes, businesses or industrial facilities in distribution systems</p>
+     </div>
+     <img src="https://shutterstock.com/image-vector/renewable-energy-power-distribution-house-600nw-2107579478.jpg" style="width :100% ;height :100% ">
+    </div>
+
+
+    <div class="myslider fade">
+      <div class="txt">
+      <h1>What is Whale Optimization Algorithm?</h1>
+      <p> The
+        whales are considered to be as highly intelligent animals
+        with motion. The WOA is inspired by the unique hunting behavior of humpback whales. Usually the humpback whales prefer to hunt krills or small fishes which are
+        close to the surface of sea. Humpback whales use a special unique hunting method called bubble net feeding
+        method. In this method they swim around the prey and
+        create a distinctive bubbles along a circle or 9-shaped
+        path.
+        The mathematical model of WOA is described in the
+        following sections
+        1. Encircling prey.
+        2. Bubble net hunting method.
+        3. Search the prey. </p></div>
+      <img src="https://images.unsplash.com/photo-1558611848-73f7eb4001a1?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGd5bXxlbnwwfHwwfHx8MA%3D%3D" style="width :100% ;height :100% ">
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="dotsbox" style="text-align: center;">
+      <span class="dot" onlick="currentSlide(1)"></span>
+      <span class="dot" onlick="currentSlide(2)"></span>
+
+    </div>
+   </div>
+   
+    <script src="mainpage.js" >
+    
+      const toggleBtn =document.querySelector('.toggle_btn')
+      const toggleBtnIcon=document.querySelector('.toggle_btn i')
+      const dropdown_menu=document.querySelector('.dropdown_menu')
+
+      toggleBtn.onclick = function()
+      {
+        dropdown_menu.classList.toggle('open')
+        const isOpen =dropdown_menu.classList.contains('open')
+        toggleBtnIcon.classList= isOpen
+        ? 'fa-solid fa-xmark'
+        :'fa-solid fa-bars'
+      }
+    </script>
+    <!--here is the body for the general simulation-->
+    
+
+   
+    <h1 style="color:white;text-align: center;">  Why we need to be Fit?</h1>
+    <div class="container1">
+      
+      <div class="box">
+          <h3>Stength</h3>
+          <p> Keeping bones, joints, and muscles healthy can help ensure that you’re
+             able to do your daily activities and be physically active.
+             Muscle-strengthening activities 
+              can help you increase or maintain your muscle mass and strength.</p>
+          <a href="#"><button>more</button></a>
+          <span class="count">1</span>
+      </div>
+      <div class="box">
+          <h3>Metabolism</h3>
+          <p>By exercising, you burn calories both when you are and aren’t moving.
+             With regular resistance training (like weight-based workouts),
+             you’ll maximise your lean body mass and increase your overall metabolic rate.</p>
+          <a href="#"><button>more</button></a>
+          <span class="count">2</span>
+      </div>
+      <div class="box">
+          <h3>Sleep</h3>
+          <p>Exercising supports you in both falling asleep and spending more time in deep 
+            sleep. Your immune system is strengthened and feelings
+             such as stress and anxiety are controlled,
+             helping you to wake up truly rejuvenated.</p>
+          <a href="#"><button>more</button></a>
+          <span class="count">3</span>
+      </div>
+      <div class="box">
+        <h3>Stressfree</h3>
+        <p> Need to lower stress after a stressful day? A gym session or
+           brisk walk can help. Physical activity stimulates many brain
+           chemicals that may leave you feeling happier, more relaxed and less anxious. </p>
+        <a href="#"><button>more</button></a>
+        <span class="count">4</span>
+    </div>
+  
+  </div>
+
+
+
+    <div class="footer">
+      <div class="col-1">
+          <h3>Useful Links</h3>
+          <a href="C:\Users\Diksha N\OneDrive\Desktop\WEB\full stack\about us.html">About Us</a>
+          <a href="C:\Users\Diksha N\OneDrive\Desktop\WEB\full stack\hh.html">Articles</a>
+          <a href="https://www.sciencedaily.com/news/health_medicine/fitness/">News</a>
+          <a href="#">Contact</a>
+      </div>
+      <div class="col-2">
+          <h3>Enter your email to start your journey now</h3>
+          <form>
+          <input type="text" placeholder="your email address">
+      </form>
+      </div>
+      <div class="col-3">
+          <h3>CONTACT</h3>
+          <P>Bull Temple Rd, Basavanagudi
+               <br>Bengaluru, Karnataka <br> 560019
+          </P>
+
+      </div>
+  </div>
+  
+  </body>
+</html>
